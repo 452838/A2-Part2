@@ -13,20 +13,43 @@
     text-align: center;
     justify-content: center;
 }
-div#Nav{
+#NavMerch{
+    margin-right: 105px;
     margin-top: 5px;
     margin-bottom: 20px;
     height: 50px;
     width: 75px;
     text-align: center;
 }
-#PageTitle{
-    flex-direction: row-reverse;
-    margin: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
-    width: 200px;
+#NavTeam{
+    margin-right: 105px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 75px;
     text-align: center;
+}
+#other{
+    margin-right: 105px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 75px;
+    text-align: center;
+}
+#Nav{
+    height: 50px;
+}
+#PageTitle{
+    margin-left: 100px;
+    margin-right: 700px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+#pagetitle{
+    margin: 0px;
+    height: 50px;
 }
 body{
     margin: 0px;
