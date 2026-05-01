@@ -1,0 +1,5 @@
+*{
+    background-color: rgb(161, 199, 255);
+    display: flex;
+    flex-wrap: wrap;
+}
