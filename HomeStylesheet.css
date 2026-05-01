@@ -5,13 +5,8 @@
 }
 #logo{
     flex-wrap: wrap;
-    background-color: white;
     margin: 50px;
     border: 25px;
-    width: 100px;
-    height: 100px;
-    text-align: center;
-    justify-content: center;
 }
 #NavMerch{
     margin-right: 105px;
