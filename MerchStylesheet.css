@@ -3,3 +3,35 @@
     display: flex;
     flex-wrap: wrap;
 }
+#logo{
+    flex-wrap: wrap;
+    margin: 50px;
+    border: 25px;
+}
+#NavHome{
+    margin-right: 105px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 75px;
+    text-align: center;
+}
+#NavTeam{
+    margin-right: 105px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 75px;
+    text-align: center;
+}
+#other{
+    margin-right: 105px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 75px;
+    text-align: center;
+}
+#Nav{
+    height: 75px;
+}
