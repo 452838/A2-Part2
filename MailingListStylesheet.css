@@ -3,6 +3,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+body{
+    margin: 0px;
+}
 #logo{
     flex-wrap: wrap;
     margin: 50px;
@@ -34,4 +37,14 @@
 }
 #Nav{
     height: 75px;
+}
+#EntryArea{
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin-left: 20%;
+    height: 50%;
+    text-align: center;
+    
 }
