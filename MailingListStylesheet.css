@@ -3,6 +3,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+head{
+    display: none;
+}
 body{
     margin: 0px;
 }
@@ -46,5 +49,4 @@ body{
     margin-left: 20%;
     height: 50%;
     text-align: center;
-    
 }

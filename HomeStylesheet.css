@@ -3,6 +3,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+head{
+    display: none;
+}
 #logo{
     flex-wrap: wrap;
     margin: 50px;
@@ -48,4 +51,8 @@
 }
 body{
     margin: 0px;
+}
+#TeamProfiles.img{
+    padding: 5px;
+    
 }
