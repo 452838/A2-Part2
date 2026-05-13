@@ -39,11 +39,17 @@ head{
     height: 75px;
 }
 #PageTitle{
+    font-size: large;
     margin-left: 100px;
     margin-right: 700px;
-    width: 200px;
+    width: 250px;
     height: 50px;
     text-align: center;
+    margin-top: 200px;
+}
+#Socials{
+    margin-left: 50%;
+    margin-right: 44%;
 }
 #pagetitle{
     margin: 0px;
@@ -51,4 +57,8 @@ head{
 }
 body{
     margin: 0px;
+}
+#TeamProfiles.img{
+    padding: 5px;
+    
 }

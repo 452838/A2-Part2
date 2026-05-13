@@ -3,6 +3,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+head{
+    display: none;
+}
 #logo{
     flex-wrap: wrap;
     margin: 50px;
@@ -34,4 +37,25 @@
 }
 #Nav{
     height: 75px;
+}
+#TopRow{
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: nowrap;
+    margin-top: 25px;
+}
+#MiddleRow{
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: nowrap;
+    margin-top: 25px;
+}
+#BottomRow{
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: nowrap;
+    margin-top: 25px;
 }

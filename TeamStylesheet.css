@@ -3,6 +3,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+head{
+    display: none;
+}
 #logo{
     flex-wrap: wrap;
     margin: 50px;
@@ -34,4 +37,32 @@
 }
 #Nav{
     height: 75px;
+}
+#TheTeam{
+    margin-top:25px;
+}
+#Member1{
+    margin-right:70%;
+    margin-top:10px;
+}
+#Member2{
+    margin-left:70%;
+    margin-top:10px;
+}
+#Member3{
+    margin-right:70%;
+    margin-top:10px;
+}
+#Member4{
+    margin-left:70%;
+    margin-top:10px;
+}
+#Member5{
+    margin-right:70%;
+    margin-top:10px;
+}
+i{
+    margin:5px;
+    height: 24px;
+    width: 24px;
 }

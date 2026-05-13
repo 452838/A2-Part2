@@ -3,11 +3,11 @@
     display: flex;
     flex-wrap: wrap;
 }
-body{
-    margin: 0px;
-}
 head{
     display: none;
+}
+body{
+    margin: 0px;
 }
 #logo{
     flex-wrap: wrap;
@@ -50,5 +50,4 @@ head{
     margin-right: 20%;
     height: 50%;
     text-align: center;
-    flex-direction: column;
 }
