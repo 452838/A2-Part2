@@ -3,6 +3,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+head{
+    display: none;
+}
 #logo{
     flex-wrap: wrap;
     margin: 50px;
