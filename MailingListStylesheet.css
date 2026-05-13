@@ -6,6 +6,9 @@
 body{
     margin: 0px;
 }
+head{
+    display: none;
+}
 #logo{
     flex-wrap: wrap;
     margin: 50px;
