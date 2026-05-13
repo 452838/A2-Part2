@@ -27,7 +27,7 @@ body{
     width: 75px;
     text-align: center;
 }
-#other{
+#NavMerch{
     margin-right: 105px;
     margin-top: 5px;
     margin-bottom: 20px;
@@ -44,7 +44,8 @@ body{
     align-items: center;
     width: 75%;
     margin-left: 20%;
+    margin-right: 20%;
     height: 50%;
     text-align: center;
-    
+    flex-direction: column;
 }
