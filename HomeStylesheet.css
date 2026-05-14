@@ -60,5 +60,27 @@ body{
 }
 #TeamProfiles.img{
     padding: 5px;
-    
+}
+script{
+    display: none;
+}
+#GamesList{
+    margin:50px;
+    margin-left:5%;
+}
+#Event{
+    background-color:rgb(153, 218, 255);
+    width: 300px;
+    height: 150px;
+}
+button{
+    width:25px;
+    height:25px;
+    justify-content: center;
+    margin-top: 75px;
+}
+#Events{
+    margin:50px;
+    margin-left: 40%;
+    margin-right:10%;
 }

@@ -24,12 +24,24 @@
             <i class="material-icons">account_circle</i>
         </div>
         <div id="GamesList"> Games: <br> game 1 <br> game 2 <br> game 3 <br> game 4</div>
-        <div id="Events"></div>
         <div id="Events">
-            
+            <button onclick="EventChangeLeft()">&larr;</button>
+            <p id="Event">Tornament<br>05/07/2026<br>Wisbeach, England<br>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+            <button onclick="EventChangeRight()">&#8594;</button>
         </div>
+        <script>
+            function EventChangeLeft()
+            {
+                document.getElementById("Event").innerHTML = "Tornament<br>05/07/2026<br>Wisbeach, England<br>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum";
+            }
+            function EventChangeRight()
+            {
+                document.getElementById("Event").innerHTML = "Meet & Greet<br>26/11/2026<br>New york, USA<br>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
+            }
+        </script>
 
         <div id="TeamProfiles"><h3>The team</h3><br> 
+            <img src="Team profile.jpg" alt="Merch image" style="width:150px;height:150px;">
             <img src="Team profile.jpg" alt="Merch image" style="width:150px;height:150px;">
             <img src="Team profile.jpg" alt="Merch image" style="width:150px;height:150px;">
             <img src="Team profile.jpg" alt="Merch image" style="width:150px;height:150px;">
