@@ -1,0 +1,127 @@
+*{
+    background-color: rgb(161, 199, 255);
+    display: flex;
+    flex-wrap: wrap;
+}
+head{
+    display: none;
+}
+#logo{
+    flex-wrap: wrap;
+    margin: 50px;
+    border: 25px;
+}
+#NavMerch{
+    margin-right: 105px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 75px;
+    text-align: center;
+}
+#NavTeam{
+    margin-right: 105px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 75px;
+    text-align: center;
+}
+#MailingList{
+    margin-right: 105px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 75px;
+    text-align: center;
+}
+#Nav{
+    height: 75px;
+}
+#PageTitle{
+    font-size: large;
+    margin-left: 100px;
+    margin-right: 700px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    margin-top: 200px;
+}
+#Socials{
+    margin-left: 50%;
+    margin-right: 44%;
+    padding: 2px;
+}
+#pagetitle{
+    margin: 0px;
+    height: 50px;
+}
+body{
+    margin: 0px;
+}
+#TeamProfiles.img{
+    padding: 5px;
+}
+script{
+    display: none;
+}
+#GamesList{
+    margin:50px;
+    margin-left:5%;
+}
+#Event{
+    background-color:rgb(153, 218, 255);
+    width: 300px;
+    height: 150px;
+}
+button{
+    width:25px;
+    height:25px;
+    justify-content: center;
+    margin-top: 75px;
+}
+#Events{
+    margin:50px;
+    margin-left: 40%;
+    margin-right:10%;
+}
+#TeamPage{
+    margin-left: 45%;
+    margin-right: 45%;
+}
+#TeamProfiles{
+    margin-left: 30%;
+    margin-right: 20%;
+}
+#MerchPage{
+    margin:10%;
+    margin-left:15%;
+}
+#MerchPreview{
+    margin:20px;
+    margin-left: 23%;
+}
+#MerchImg1{
+    padding: 10px;
+}
+#MerchImg2{
+    padding: 10px;
+}
+#MerchImg3{
+    padding: 10px;
+}
+#MerchImg4{
+    padding: 10px;
+}
+#MerchImg5{
+    padding: 10px;
+}
+#MerchImg6{
+    padding: 10px;
+}
+#MerchImg7{
+    padding: 10px;
+}
+#MerchImg8{
+    padding: 10px;
+}

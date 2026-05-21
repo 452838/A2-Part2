@@ -1,0 +1,61 @@
+*{
+    background-color: rgb(161, 199, 255);
+    display: flex;
+    flex-wrap: wrap;
+}
+head{
+    display: none;
+}
+#logo{
+    flex-wrap: wrap;
+    margin: 50px;
+    border: 25px;
+}
+#NavHome{
+    margin-right: 105px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 75px;
+    text-align: center;
+}
+#NavTeam{
+    margin-right: 105px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 75px;
+    text-align: center;
+}
+#MailingList{
+    margin-right: 105px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 75px;
+    text-align: center;
+}
+#Nav{
+    height: 75px;
+}
+#TopRow{
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: nowrap;
+    margin-top: 25px;
+}
+#MiddleRow{
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: nowrap;
+    margin-top: 25px;
+}
+#BottomRow{
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: nowrap;
+    margin-top: 25px;
+}

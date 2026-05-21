@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cromer Crabs/Mailing list</title>
+        <link rel="stylesheet" href="MailingListStylesheet.css">
+        <script>
+            function SubmitForm()    
+            {   
+                alert("Form submitted, You have joined our mailing list!")   
+            }
+        </script>
+    </head>
+    <body>
+        <div id="logo"><img src="real logo design 1 .png" alt="Cromer Crabs Logo" style="width:150px;height:150px;"></div>
+        <div id="Nav">
+            <a id="NavHome" href="Homepage.html">Homepage</a>
+            <a id="NavTeam" href="TeamPage.html">Our team</a>
+            <a id="NavMerch" href="MerchStore.html">Our merch</a>
+        </div>
+        <div id="PageTitle">
+            <h1 id="pagetitle">Mailing list</h1>
+        </div>
+        <div id="EntryArea">
+            <form>
+                <label for="FirstName">First Name:</label><br>
+                <input type="text" id="FirstName" name="Firstname"><br>
+                <label for="LastName">Last Name:</label><br>
+                <input type="text" id="LastName" name="LastName"><br>
+                <label for="Email">Email:</label><br>
+                <input type="text" id="Email" name="Email"><br>
+                <button onclick="SubmitForm()">Submit</button>
+            </form>   
+        </div>
+    </body>
+</html>

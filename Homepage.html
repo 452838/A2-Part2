@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Cromer Crabs/Homepage</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="HomeStylesheet.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="logo"><img src="real logo design 1 .png" alt="Cromer Crabs Logo" style="width:150px;height:150px;"></div>
+        <div id="Nav">
+            <a id="NavMerch" href="MerchStore.html">Our merch</a>
+            <a id="NavTeam" href="TeamPage.html">Our team</a>
+            <a id="MailingList" href="MailingList.html">Join our mailing list</a>
+        </div>
+        <div id="PageTitle">
+            <h1 id="pagetitle">Cromer Crabs</h1>
+        </div>
+        <div id="Socials">
+            <a href=""><i class="fa fa-youtube-play" style="font-size: 25px;"></i></a>
+            <a href=""><i class="fa fa-facebook-official" style="font-size: 25px;"></i></a>
+            <a href=""><i class="fa fa-twitch" style="font-size: 25px;"></i></a>
+            <a href=""><i class="fa fa-instagram" style="font-size: 25px;"></i></a>
+        </div>
+        <div id="GamesList"> Games: <br> game 1 <br> game 2 <br> game 3 <br> game 4</div>
+        <div id="Events">
+            <button onclick="EventChangeLeft()">&larr;</button>
+            <p id="Event">Tornament<br>05/07/2026<br>Wisbeach, England<br>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+            <button onclick="EventChangeRight()">&#8594;</button>
+        </div>
+        <script>
+            function EventChangeLeft()
+            {
+                document.getElementById("Event").innerHTML = "Tornament<br>05/07/2026<br>Wisbeach, England<br>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum";
+            }
+            function EventChangeRight()
+            {
+                document.getElementById("Event").innerHTML = "Meet & Greet<br>26/11/2026<br>New York, USA<br>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
+            }
+        </script>
+
+        <div id="TeamProfiles"><h3 id="TeamPage">The team</h3><br> 
+            <img src="Team profile.jpg" alt="Merch image" style="width:150px;height:150px;">
+            <img src="Team profile.jpg" alt="Merch image" style="width:150px;height:150px;">
+            <img src="Team profile.jpg" alt="Merch image" style="width:150px;height:150px;">
+            <img src="Team profile.jpg" alt="Merch image" style="width:150px;height:150px;">
+            <img src="Team profile.jpg" alt="Merch image" style="width:150px;height:150px;">
+        </div>
+        <div id="MerchPage"><h3>Our merch:</h3>
+            <div id="MerchPreview">
+                <p id="TopRow">
+                    <img id="MerchImg1" src="Cromer Crabs Merch.png" alt="Merch item" style="width:150px;height:150px;">
+                    <img id="MerchImg2" src="Cromer Crabs Merch.png" alt="Merch item" style="width:150px;height:150px;">
+                    <img id="MerchImg3" src="Cromer Crabs Merch.png" alt="Merch item" style="width:150px;height:150px;">
+                    <img id="MerchImg4" src="Cromer Crabs Merch.png" alt="Merch item" style="width:150px;height:150px;">
+                </p>
+                <p id="BottomRow">
+                    <img id="MerchImg5" src="Cromer Crabs Merch.png" alt="Merch item" style="width:150px;height:150px;">
+                    <img id="MerchImg6" src="Cromer Crabs Merch.png" alt="Merch item" style="width:150px;height:150px;">
+                    <img id="MerchImg7" src="Cromer Crabs Merch.png" alt="Merch item" style="width:150px;height:150px;">
+                    <img id="MerchImg8" src="Cromer Crabs Merch.png" alt="Merch item" style="width:150px;height:150px;">
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

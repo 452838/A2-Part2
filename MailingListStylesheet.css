@@ -1,0 +1,53 @@
+*{
+    background-color: rgb(161, 199, 255);
+    display: flex;
+    flex-wrap: wrap;
+}
+head{
+    display: none;
+}
+body{
+    margin: 0px;
+}
+#logo{
+    flex-wrap: wrap;
+    margin: 50px;
+    border: 25px;
+}
+#NavHome{
+    margin-right: 105px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 75px;
+    text-align: center;
+}
+#NavTeam{
+    margin-right: 105px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 75px;
+    text-align: center;
+}
+#NavMerch{
+    margin-right: 105px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 75px;
+    text-align: center;
+}
+#Nav{
+    height: 75px;
+}
+#EntryArea{
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 50%;
+    text-align: center;
+}
